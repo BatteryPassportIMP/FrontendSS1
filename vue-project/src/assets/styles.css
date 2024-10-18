@@ -1,0 +1,33 @@
+* {
+    --htw-gruen: #76B900;
+    --htw-grau:#AFAFAF;
+    --htw-orange:#FF5F00;
+    --htw-blau:#0082D1;
+    --htw-font:Verdana, Geneva, sans-serif;
+    --htw-gruen1:#b7d77c;
+    --htw-gruen2:#93C33A;
+}
+
+.htw-gruen {
+    background-image: linear-gradient(to right, var(--htw-gruen1) , var(--htw-gruen2));
+}
+
+.blog {
+    padding : 40px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.blog, .blog>* {
+    background-color : var(--htw-grau);
+    text-align : center;
+}
+
+#myfooter {
+    background-color : #343a40;
+    color : white;
+}
+#myfooter a, #myfooter a:hover, #myfooter a:visited, #myfooter a:link {
+    text-decoration : none;
+    color : white;
+}
+
